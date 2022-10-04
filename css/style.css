@@ -1,0 +1,299 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: "Vollkorn-Regular";
+    src: url(../fonts/Vollkorn-Regular.ttf);
+}
+
+body {
+    background-color: #20d5fa;
+}
+
+.site {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #fff;
+}
+
+.chiziq {
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* Header block start */
+header {
+    width: 100%;
+    height: 106px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.header-inner {
+    width: 940px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 155px;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    width: 324px;
+    gap: 34px;
+}
+
+.link {
+    font-family: 'Montserrat-Regular';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #404040;
+}
+
+/* header block end */
+
+
+
+
+
+/* making block start */
+.making-img {
+    position: relative;
+    background-image: url(../img/makingimg.png);
+    width: 100%;
+    height: 391px;
+    color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.making-title1 {
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+.making-title2 {
+    font-family: 'Montserrat-Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.making-text {
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.81);
+    margin-top: 25px;
+}
+
+.making-img::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    background-image: url(../img/x.png);
+    width: 52px;
+    height: 52px;
+    transform: translate(-50%, 50%);
+}
+
+/* making block  end */
+
+
+
+
+
+/* minimalist block start */
+.minimalist {
+    width: 100%;
+    height: 289px;
+    background: #FEFEC9;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.minimalist-text {
+    width: 940px;
+    height: 75px;
+    font-family: 'Vollkorn-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #47474F;
+    margin-top: 60px;
+}
+
+.Getintouch {
+    width: 159px;
+    height: 53px;
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #47474F;
+    margin-top: 39px;
+}
+
+/* minimalist block end  */
+
+
+
+
+
+/* brands block start */
+.brands {
+    width: 100%;
+    height: 625px;
+    background-color: #fff;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.brands-title {
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-top: 79px;
+}
+
+.brands .chiziq {
+    background-color: rgba(0, 0, 0, 0.09);
+    margin-top: 28px;
+}
+
+.brands-block-pro {
+    width: 960px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: baseline;
+    margin-top: 43px;
+}
+
+.brands-block-pro img {
+    width: 300px;
+    height: 219px;
+}
+
+.brands-block {
+    width: 320px;
+    height: 368px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.brands-name {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 18px;
+}
+
+.brands-about {
+    font-family: 'Vollkorn';
+    line-height: 22px;
+    text-align: center;
+    font-size: 15px;
+    color: #333333;
+    height: 66px;
+}
+
+/* brands block end */
+
+
+
+/* project start */
+.PROJECTS {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: #F5F5F5;
+    padding-top: 79px;
+}
+
+.PROJECTS .chiziq {
+    background-color: rgba(0, 0, 0, 0.09);
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+
+.project-title {
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 940px;
+    gap: 20px;
+}
+
+.item {
+    width: 300px;
+    height: 384px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: #fff;
+}
+
+.item h4 {
+    font-family: 'Montserrat-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 19px;
+    margin-bottom: 4px;
+}
+
+.item p {
+    font-family: 'Vollkorn';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 21px;
+}
+
+
+/* project end */
